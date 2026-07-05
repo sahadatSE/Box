@@ -1,0 +1,64 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 100px;
+    gap: 10px;
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    border:solid 2px rgb(219, 216, 212);
+    padding:12px;
+    border-radius: 7px; 
+    box-shadow: 10px 25px 20px rgb(218, 217, 214) ;
+    border-width: 1px;
+    
+    
+}
+.free{
+    padding: 0%;
+    margin-top: 0%;
+}
+ .priceBox {
+  display: flex;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.priceBox p {
+  margin: 0;
+  padding: 0;
+}
+
+.doller {
+  font-size: 18px;
+  align-self: flex-start;
+  margin-top: 10px;
+  color: darkgray;
+}
+
+.amount {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.duration {
+  font-size: 10px;
+  margin-bottom: 8px;
+  color: darkgray;
+}
+.see{
+    font-size: 12px;
+}
+.button{
+    border-radius: 25px;
+    color: darkgray;
+    border-color:darkgray ;
+    height: 25px;
+    width: 200px;
+    background-color: white;
+    border-width: 1px;
+}
